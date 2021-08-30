@@ -343,7 +343,7 @@ based on their orientation */
 /* Screen heights larger than 1024px  */
 @media only screen and (min-height: 1024px){
     .remarketing-content-wrapper{
-        height: 90vh;
+        height: auto;
     }
 }
 
