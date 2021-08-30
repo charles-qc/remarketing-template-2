@@ -48,7 +48,7 @@
   background-color: #C80000;
   border-radius: 2px;
   color: white;
-  padding: 1em;
+  padding: .75rem;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -64,9 +64,6 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row-reverse;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/quietcool-savings.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     /*height: 700px;*/
 }
 
@@ -78,11 +75,10 @@
     align-items: center;
     width: 70%;
     padding: 4% 0%;
-    /*
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("media/bg/quietcool-savings.png");
     background-repeat: no-repeat;
     background-size: cover;
-    */
+    background-position: center;
 }
 
 /* Main call to action headline wrapper */
@@ -92,7 +88,7 @@
 
 /* Main call to action headline */
 .remarketing-call-to-action>h1{
-    padding: 5% 0%;
+    padding: 2% 0%;
     font-size: 2.5rem;
     color: #f2f2f2;
 }
@@ -139,7 +135,7 @@
 /* Contact form headline */
 .contact-form-headline>p{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.25rem;
     color: #fcfcfc;
 }
 
@@ -150,16 +146,17 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    padding: 5% 0%;
+    padding: 3% 0%;
 }
 
 /* Remarketing contact form button */
 .remarketing-contact-form-wrapper>.submit-form-btn{
     text-align: center;
+    text-transform: uppercase;
     padding: 4% 1%;
-    width: 50%;
+    width: 45%;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     background-color: white;
     color: #C80000;
     border-radius: 2px;
@@ -198,7 +195,7 @@ form>input:hover{
     justify-content: center;
     flex-wrap: nowrap;
     background-color: #fff;
-    padding: 2.5% 0%;
+    padding: 2% 0%;
     width: 100%;
 }
 
@@ -343,10 +340,10 @@ based on their orientation */
     }
 }
 
-/* Ipad Pro - portrait */
-@media only screen and (min-height: 1366px){
+/* Screen heights larger than 1024px  */
+@media only screen and (min-height: 1024px){
     .remarketing-content-wrapper{
-        height: 95vh;
+        height: 90vh;
     }
 }
 
