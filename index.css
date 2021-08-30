@@ -64,7 +64,7 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row-reverse;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/quietcool-savings.png");
     background-repeat: no-repeat;
     background-size: cover;
     /*height: 700px;*/
