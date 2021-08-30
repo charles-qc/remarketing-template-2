@@ -90,7 +90,7 @@
 .remarketing-call-to-action>h1{
     padding: 2% 0%;
     font-size: 2.5rem;
-    color: #f2f2f2;
+    color: white;
 }
 
 /* Main call to action subheadline wrapper */
@@ -107,7 +107,7 @@
 .remarketing-subheadline>p{
     padding: 2.5% 0%;
     font-size: 1.5rem;
-    color: #fcfcfc;
+    color: #dcdcdc;
     line-height: 1.5em;
 }
 
